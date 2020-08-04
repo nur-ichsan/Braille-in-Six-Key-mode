@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/quran.css">
+    <title>Qur'an Braille</title>
+</head>
+<body>
+<h1>Program Quran Braille</h1>
+<form action="" accept-charset="ISO-8859-1">
+    <div>
+        <label for="brl">Braille QWERTY Mode</label>
+        <textarea name="brl" id="brl" tabindex="1" autofocus></textarea>
+    </div>
+    <div>
+        <label for="awas">PRINT</label>
+        <textarea name="awas" id="awas" tabindex="2"></textarea>
+    </div>
+    
+    <div>
+        <label for="unicode">Unicode</label>
+        <textarea name="unicode" id="unicode" tabindex="3"></textarea>
+    </div>
+
+    <div>
+       <input type="submit" name="submit" id="translate" value="Terjemahkan" tabindex="4">
+       <input type="reset" value="reset">
+       <input type="checkbox" name="sixkey" id="sixkey" value="1"><label for="sixkey">SIXKEY Mode</label>
+    </div>
+</form>
+
+<script src="QrBraille.js"></script>
+</body>
+</html>
